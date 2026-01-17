@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "tomato-1",
+      "description": "A close up of fresh red tomatoes on the vine.",
+      "imageUrl": "https://images.unsplash.com/photo-1621800656560-0a01f2894448?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZWQlMjB0b21hdG9lc3xlbnwwfHx8fDE3Njg2NTc5MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red tomatoes"
+    },
+    {
+      "id": "potato-1",
+      "description": "A pile of freshly harvested potatoes with soil on them.",
+      "imageUrl": "https://images.unsplash.com/photo-1604634077299-fbc4ab5f6ba1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmcmVzaCUyMHBvdGF0b2VzfGVufDB8fHx8MTc2ODYyNDA4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fresh potatoes"
+    },
+    {
+      "id": "maize-1",
+      "description": "Close up of a corn cob with golden kernels.",
+      "imageUrl": "https://images.unsplash.com/photo-1629570585008-27e194a5d0f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3JuJTIwY29ifGVufDB8fHx8MTc2ODU3MzkzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corn cob"
+    },
+    {
+      "id": "tomato-2",
+      "description": "A basket full of ripe tomatoes.",
+      "imageUrl": "https://images.unsplash.com/photo-1753172433718-d0c2a99443d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b21hdG8lMjBiYXNrZXR8ZW58MHx8fHwxNzY4NjU3OTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tomato basket"
+    }
+  ]
 }
