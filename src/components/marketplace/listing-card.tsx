@@ -8,6 +8,7 @@ import type { Listing } from '@/lib/types';
 import { MapPin, Copy } from 'lucide-react';
 import { useLanguage } from '@/contexts/language-context';
 import { useToast } from '@/hooks/use-toast';
+import { cn } from '@/lib/utils';
 
 interface ListingCardProps {
   listing: Listing;
