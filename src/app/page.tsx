@@ -4,26 +4,41 @@ import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/language-context';
 import { Camera } from 'lucide-react';
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
   const { t } = useLanguage();
+  const [animationKey, setAnimationKey] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setAnimationKey(prevKey => prevKey + 1);
+    }, 5000); // Repeat animation every 5 seconds
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
 
   return (
     <div className="container mx-auto px-4 py-8 md:py-16 flex flex-col items-center justify-center text-center min-h-[calc(100vh-80px)]">
       <div className="max-w-3xl">
         <h1 
+          key={`title-${animationKey}`}
           className="text-4xl md:text-6xl font-bold font-headline text-primary tracking-tight animate-fade-in-up opacity-0"
           style={{ animationDelay: '0.1s' }}
         >
           {t('home.title')}
         </h1>
         <p 
+          key={`subtitle-${animationKey}`}
           className="mt-4 md:mt-6 text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto animate-fade-in-up opacity-0"
           style={{ animationDelay: '0.2s' }}
         >
           {t('home.subtitle')}
         </p>
         <div 
+          key={`button-${animationKey}`}
           className="mt-8 md:mt-12 animate-fade-in-up opacity-0"
           style={{ animationDelay: '0.3s' }}
         >
