@@ -41,7 +41,7 @@ export function ListingCard({ listing }: ListingCardProps) {
   return (
     <Card className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
       <CardHeader className="p-0">
-        <div className="aspect-w-16 aspect-h-9 overflow-hidden">
+        <div className="aspect-video overflow-hidden">
           <Image
             src={listing.image}
             alt={listing.cropType}
