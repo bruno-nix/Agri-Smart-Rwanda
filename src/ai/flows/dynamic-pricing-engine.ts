@@ -12,7 +12,7 @@ import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
 
 const DynamicPricingEngineInputSchema = z.object({
-  cropType: z.enum(['Tomato', 'Potato', 'Maize', 'Mango', 'Pineapple', 'Banana', 'Cassava', 'Beans']).describe('The type of crop.'),
+  cropType: z.enum(['Tomato', 'Potato', 'Maize', 'Mango', 'Pineapple', 'Banana', 'Cassava', 'Beans', 'Cabbage', 'Carrot', 'Onion', 'Eggplant', 'Cucumber', 'Bell Pepper', 'Spinach', 'Avocado', 'Papaya', 'Watermelon', 'Orange', 'Lemon']).describe('The type of crop.'),
   qualityGrade: z.enum(['A', 'B', 'C']).describe('The quality grade of the crop.'),
   farmerLocation: z.string().describe('The location of the farmer.'),
 });

@@ -13,6 +13,11 @@ const pineappleImage = PlaceHolderImages.find(img => img.id === 'pineapple-1');
 const bananaImage = PlaceHolderImages.find(img => img.id === 'banana-1');
 const cassavaImage = PlaceHolderImages.find(img => img.id === 'cassava-1');
 const beansImage = PlaceHolderImages.find(img => img.id === 'beans-1');
+const cabbageImage = PlaceHolderImages.find(img => img.id === 'cabbage-1');
+const carrotImage = PlaceHolderImages.find(img => img.id === 'carrot-1');
+const onionImage = PlaceHolderImages.find(img => img.id === 'onion-1');
+const avocadoImage = PlaceHolderImages.find(img => img.id === 'avocado-1');
+const papayaImage = PlaceHolderImages.find(img => img.id === 'papaya-1');
 
 const initialListings: Listing[] = [
   {
@@ -24,6 +29,7 @@ const initialListings: Listing[] = [
     image: tomatoImage?.imageUrl ?? '',
     imageHint: tomatoImage?.imageHint,
     contact: '+250 788 123 456',
+    category: 'Vegetable',
   },
   {
     id: '2',
@@ -34,6 +40,7 @@ const initialListings: Listing[] = [
     image: potatoImage?.imageUrl ?? '',
     imageHint: potatoImage?.imageHint,
     contact: 'farmer.potato@email.com',
+    category: 'Vegetable',
   },
   {
     id: '3',
@@ -44,6 +51,7 @@ const initialListings: Listing[] = [
     image: maizeImage?.imageUrl ?? '',
     imageHint: maizeImage?.imageHint,
     contact: '+250 788 987 654',
+    category: 'Vegetable',
   },
   {
     id: '4',
@@ -54,6 +62,7 @@ const initialListings: Listing[] = [
     image: tomato2Image?.imageUrl ?? '',
     imageHint: tomato2Image?.imageHint,
     contact: 'gasabo.growers@email.com',
+    category: 'Vegetable',
   },
   {
     id: '5',
@@ -64,6 +73,7 @@ const initialListings: Listing[] = [
     image: mangoImage?.imageUrl ?? '',
     imageHint: mangoImage?.imageHint,
     contact: '+250 788 111 222',
+    category: 'Fruit',
   },
   {
     id: '6',
@@ -74,6 +84,7 @@ const initialListings: Listing[] = [
     image: pineappleImage?.imageUrl ?? '',
     imageHint: pineappleImage?.imageHint,
     contact: 'pine.farmer@example.com',
+    category: 'Fruit',
   },
   {
     id: '7',
@@ -84,6 +95,7 @@ const initialListings: Listing[] = [
     image: bananaImage?.imageUrl ?? '',
     imageHint: bananaImage?.imageHint,
     contact: '+250 788 333 444',
+    category: 'Fruit',
   },
   {
     id: '8',
@@ -94,6 +106,7 @@ const initialListings: Listing[] = [
     image: cassavaImage?.imageUrl ?? '',
     imageHint: cassavaImage?.imageHint,
     contact: 'cassava.coop@email.com',
+    category: 'Vegetable',
   },
   {
     id: '9',
@@ -104,6 +117,62 @@ const initialListings: Listing[] = [
     image: beansImage?.imageUrl ?? '',
     imageHint: beansImage?.imageHint,
     contact: '+250 788 555 666',
+    category: 'Vegetable',
+  },
+  {
+    id: '10',
+    cropType: 'Cabbage',
+    qualityGrade: 'A',
+    pricePerKg: 350,
+    farmerLocation: 'Nyabihu',
+    image: cabbageImage?.imageUrl ?? '',
+    imageHint: cabbageImage?.imageHint,
+    contact: '+250 788 444 555',
+    category: 'Vegetable',
+  },
+  {
+    id: '11',
+    cropType: 'Carrot',
+    qualityGrade: 'A',
+    pricePerKg: 600,
+    farmerLocation: 'Gisagara',
+    image: carrotImage?.imageUrl ?? '',
+    imageHint: carrotImage?.imageHint,
+    contact: 'carrot.farm@example.com',
+    category: 'Vegetable',
+  },
+  {
+    id: '12',
+    cropType: 'Avocado',
+    qualityGrade: 'B',
+    pricePerKg: 1500,
+    farmerLocation: 'Nyamagabe',
+    image: avocadoImage?.imageUrl ?? '',
+    imageHint: avocadoImage?.imageHint,
+    contact: '+250 788 777 888',
+    category: 'Fruit',
+  },
+  {
+    id: '13',
+    cropType: 'Onion',
+    qualityGrade: 'B',
+    pricePerKg: 700,
+    farmerLocation: 'Rubavu',
+    image: onionImage?.imageUrl ?? '',
+    imageHint: onionImage?.imageHint,
+    contact: 'onion.grower@example.com',
+    category: 'Vegetable',
+  },
+  {
+    id: '14',
+    cropType: 'Papaya',
+    qualityGrade: 'A',
+    pricePerKg: 800,
+    farmerLocation: 'Bugesera',
+    image: papayaImage?.imageUrl ?? '',
+    imageHint: papayaImage?.imageHint,
+    contact: '+250 788 999 000',
+    category: 'Fruit',
   },
 ];
 

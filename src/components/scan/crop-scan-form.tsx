@@ -29,7 +29,7 @@ import { UploadCloud } from 'lucide-react';
 import type { CropType } from '@/lib/types';
 
 const FormSchema = z.object({
-  cropType: z.enum(['Tomato', 'Potato', 'Maize', 'Mango', 'Pineapple', 'Banana', 'Cassava', 'Beans'], {
+  cropType: z.enum(['Tomato', 'Potato', 'Maize', 'Mango', 'Pineapple', 'Banana', 'Cassava', 'Beans', 'Cabbage', 'Carrot', 'Onion', 'Eggplant', 'Cucumber', 'Bell Pepper', 'Spinach', 'Avocado', 'Papaya', 'Watermelon', 'Orange', 'Lemon'], {
     required_error: 'Please select a crop type.',
   }),
   farmerLocation: z.string().min(2, {
@@ -105,6 +105,18 @@ export function CropScanForm({ onSubmit }: CropScanFormProps) {
     { value: 'Banana', label: t('scan.form.cropType.banana') },
     { value: 'Cassava', label: t('scan.form.cropType.cassava') },
     { value: 'Beans', label: t('scan.form.cropType.beans') },
+    { value: 'Cabbage', label: t('scan.form.cropType.cabbage') },
+    { value: 'Carrot', label: t('scan.form.cropType.carrot') },
+    { value: 'Onion', label: t('scan.form.cropType.onion') },
+    { value: 'Eggplant', label: t('scan.form.cropType.eggplant') },
+    { value: 'Cucumber', label: t('scan.form.cropType.cucumber') },
+    { value: 'Bell Pepper', label: t('scan.form.cropType.bell_pepper') },
+    { value: 'Spinach', label: t('scan.form.cropType.spinach') },
+    { value: 'Avocado', label: t('scan.form.cropType.avocado') },
+    { value: 'Papaya', label: t('scan.form.cropType.papaya') },
+    { value: 'Watermelon', label: t('scan.form.cropType.watermelon') },
+    { value: 'Orange', label: t('scan.form.cropType.orange') },
+    { value: 'Lemon', label: t('scan.form.cropType.lemon') },
   ];
 
   return (

@@ -61,6 +61,7 @@ export default function ScanPage() {
         farmerLocation: scanState.location,
         image: scanState.image,
         contact: contact,
+        category: scanState.data.category,
       });
       router.push('/marketplace');
     }

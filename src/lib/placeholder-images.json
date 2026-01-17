@@ -53,6 +53,78 @@
       "description": "A variety of dried beans in a bowl.",
       "imageUrl": "https://images.unsplash.com/photo-1763368397625-32c8f75fed44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkcmllZCUyMGJlYW5zfGVufDB8fHx8MTc2ODY2MDA0MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dried beans"
+    },
+    {
+      "id": "cabbage-1",
+      "description": "A fresh green cabbage head.",
+      "imageUrl": "https://images.unsplash.com/photo-1596199437649-7c13a347b593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxjYWJiYWdlfGVufDB8fHx8MTY4MTM4NjYxMXww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "green cabbage"
+    },
+    {
+      "id": "carrot-1",
+      "description": "A bunch of fresh carrots with green tops.",
+      "imageUrl": "https://images.unsplash.com/photo-1582515072040-3d5b9c65c697?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxjYXJyb3RzfGVufDB8fHx8MTY4MTM4NjYyMnww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "fresh carrots"
+    },
+    {
+      "id": "onion-1",
+      "description": "Several red onions on a wooden surface.",
+      "imageUrl": "https://images.unsplash.com/photo-1587339396348-ab2838c1de15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxvuaW9uc3xlbnwwfHx8fDE2ODEzODY2MzF8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "red onions"
+    },
+    {
+      "id": "eggplant-1",
+      "description": "A shiny purple eggplant.",
+      "imageUrl": "https://images.unsplash.com/photo-1601419097951-70e9a58b6e68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxlZ2dwbGFudHxlbnwwfHx8fDE2ODEzODY2NDB8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "purple eggplant"
+    },
+    {
+      "id": "cucumber-1",
+      "description": "Slices of fresh green cucumber.",
+      "imageUrl": "https://images.unsplash.com/photo-1632773461-125959955896?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxjdWN1bWJlcnxlbnwwfHx8fDE2ODEzODY2NDl8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "green cucumber"
+    },
+    {
+      "id": "bell-pepper-1",
+      "description": "A mix of red, yellow and green bell peppers.",
+      "imageUrl": "https://images.unsplash.com/photo-1598170845033-5334c9143439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxiZWxsJTIwcGVwcGVyc3xlbnwwfHx8fDE2ODEzODY2NTd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "bell peppers"
+    },
+    {
+      "id": "spinach-1",
+      "description": "A bunch of fresh spinach leaves.",
+      "imageUrl": "https://images.unsplash.com/photo-1584824137996-5b40a32a6e95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxzaG5hY2h8ZW58MHx8fHwxNjgxMzg2NjY1fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "fresh spinach"
+    },
+    {
+      "id": "avocado-1",
+      "description": "An avocado cut in half showing the pit.",
+      "imageUrl": "https://images.unsplash.com/photo-1582287879438-60b64d08a29a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxhdm9jYWRvfGVufDB8fHx8MTY4MTM4NjY3M3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "cut avocado"
+    },
+    {
+      "id": "papaya-1",
+      "description": "A ripe papaya cut open with black seeds.",
+      "imageUrl": "https://images.unsplash.com/photo-1517282009859-f000ec3b26fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxwYXBheWF8ZW58MHx8fHwxNjgxMzg2NjgwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "ripe papaya"
+    },
+    {
+      "id": "watermelon-1",
+      "description": "Slices of juicy red watermelon.",
+      "imageUrl": "https://images.unsplash.com/photo-1621021422606-4835a0f670f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHx3YXRlcm1lbG9ufGVufDB8fHx8MTY4MTM4NjY4OHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "juicy watermelon"
+    },
+    {
+      "id": "orange-1",
+      "description": "A whole orange and a peeled orange.",
+      "imageUrl": "https://images.unsplash.com/photo-1547514701-42782101795e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxvcmFuZ2V8ZW58MHx8fHwxNjgxMzg2Njk2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "peeled orange"
+    },
+    {
+      "id": "lemon-1",
+      "description": "A bright yellow lemon against a blue background.",
+      "imageUrl": "https://images.unsplash.com/photo-1568569350163-145327958564?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM1Mjd8MHwxfHNlYXJjaHwxfHxsZW1vbnxlbnwwfHx8fDE2ODEzODY3MDN8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "yellow lemon"
     }
   ]
 }
