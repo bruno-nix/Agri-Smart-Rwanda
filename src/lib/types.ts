@@ -1,4 +1,4 @@
-export type CropType = 'Tomato' | 'Potato' | 'Maize';
+export type CropType = 'Tomato' | 'Potato' | 'Maize' | 'Mango' | 'Pineapple' | 'Banana' | 'Cassava' | 'Beans';
 export type QualityGrade = 'A' | 'B' | 'C';
 
 export type Listing = {

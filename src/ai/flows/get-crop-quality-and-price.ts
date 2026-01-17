@@ -16,7 +16,7 @@ const GetCropQualityAndPriceInputSchema = z.object({
     .describe(
       "A photo of the crop, as a data URI that must include a MIME type and use Base64 encoding. Expected format: 'data:<mimetype>;base64,<encoded_data>'."
     ),
-  cropType: z.enum(['Tomato', 'Potato', 'Maize']).describe('The type of crop.'),
+  cropType: z.enum(['Tomato', 'Potato', 'Maize', 'Mango', 'Pineapple', 'Banana', 'Cassava', 'Beans']).describe('The type of crop.'),
   farmerLocation: z.string().describe('The location of the farmer.'),
 });
 export type GetCropQualityAndPriceInput = z.infer<typeof GetCropQualityAndPriceInputSchema>;

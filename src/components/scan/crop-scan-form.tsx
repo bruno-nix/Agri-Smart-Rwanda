@@ -29,7 +29,7 @@ import { UploadCloud } from 'lucide-react';
 import type { CropType } from '@/lib/types';
 
 const FormSchema = z.object({
-  cropType: z.enum(['Tomato', 'Potato', 'Maize'], {
+  cropType: z.enum(['Tomato', 'Potato', 'Maize', 'Mango', 'Pineapple', 'Banana', 'Cassava', 'Beans'], {
     required_error: 'Please select a crop type.',
   }),
   farmerLocation: z.string().min(2, {
@@ -100,6 +100,11 @@ export function CropScanForm({ onSubmit }: CropScanFormProps) {
     { value: 'Tomato', label: t('scan.form.cropType.tomato') },
     { value: 'Potato', label: t('scan.form.cropType.potato') },
     { value: 'Maize', label: t('scan.form.cropType.maize') },
+    { value: 'Mango', label: t('scan.form.cropType.mango') },
+    { value: 'Pineapple', label: t('scan.form.cropType.pineapple') },
+    { value: 'Banana', label: t('scan.form.cropType.banana') },
+    { value: 'Cassava', label: t('scan.form.cropType.cassava') },
+    { value: 'Beans', label: t('scan.form.cropType.beans') },
   ];
 
   return (

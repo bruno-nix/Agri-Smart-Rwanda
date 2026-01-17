@@ -29,6 +29,11 @@ export function ListingCard({ listing }: ListingCardProps) {
     Tomato: t('scan.form.cropType.tomato'),
     Potato: t('scan.form.cropType.potato'),
     Maize: t('scan.form.cropType.maize'),
+    Mango: t('scan.form.cropType.mango'),
+    Pineapple: t('scan.form.cropType.pineapple'),
+    Banana: t('scan.form.cropType.banana'),
+    Cassava: t('scan.form.cropType.cassava'),
+    Beans: t('scan.form.cropType.beans'),
   };
 
   const translatedCropType = cropTypeTranslations[listing.cropType] || listing.cropType;

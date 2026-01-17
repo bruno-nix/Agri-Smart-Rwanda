@@ -8,6 +8,11 @@ const tomatoImage = PlaceHolderImages.find(img => img.id === 'tomato-1');
 const potatoImage = PlaceHolderImages.find(img => img.id === 'potato-1');
 const maizeImage = PlaceHolderImages.find(img => img.id === 'maize-1');
 const tomato2Image = PlaceHolderImages.find(img => img.id === 'tomato-2');
+const mangoImage = PlaceHolderImages.find(img => img.id === 'mango-1');
+const pineappleImage = PlaceHolderImages.find(img => img.id === 'pineapple-1');
+const bananaImage = PlaceHolderImages.find(img => img.id === 'banana-1');
+const cassavaImage = PlaceHolderImages.find(img => img.id === 'cassava-1');
+const beansImage = PlaceHolderImages.find(img => img.id === 'beans-1');
 
 const initialListings: Listing[] = [
   {
@@ -49,6 +54,56 @@ const initialListings: Listing[] = [
     image: tomato2Image?.imageUrl ?? '',
     imageHint: tomato2Image?.imageHint,
     contact: 'gasabo.growers@email.com',
+  },
+  {
+    id: '5',
+    cropType: 'Mango',
+    qualityGrade: 'A',
+    pricePerKg: 1200,
+    farmerLocation: 'Rusizi',
+    image: mangoImage?.imageUrl ?? '',
+    imageHint: mangoImage?.imageHint,
+    contact: '+250 788 111 222',
+  },
+  {
+    id: '6',
+    cropType: 'Pineapple',
+    qualityGrade: 'A',
+    pricePerKg: 700,
+    farmerLocation: 'Ngoma',
+    image: pineappleImage?.imageUrl ?? '',
+    imageHint: pineappleImage?.imageHint,
+    contact: 'pine.farmer@example.com',
+  },
+  {
+    id: '7',
+    cropType: 'Banana',
+    qualityGrade: 'B',
+    pricePerKg: 400,
+    farmerLocation: 'Huye',
+    image: bananaImage?.imageUrl ?? '',
+    imageHint: bananaImage?.imageHint,
+    contact: '+250 788 333 444',
+  },
+  {
+    id: '8',
+    cropType: 'Cassava',
+    qualityGrade: 'C',
+    pricePerKg: 250,
+    farmerLocation: 'Kamonyi',
+    image: cassavaImage?.imageUrl ?? '',
+    imageHint: cassavaImage?.imageHint,
+    contact: 'cassava.coop@email.com',
+  },
+  {
+    id: '9',
+    cropType: 'Beans',
+    qualityGrade: 'A',
+    pricePerKg: 900,
+    farmerLocation: 'Gicumbi',
+    image: beansImage?.imageUrl ?? '',
+    imageHint: beansImage?.imageHint,
+    contact: '+250 788 555 666',
   },
 ];
 

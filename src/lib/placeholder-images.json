@@ -23,6 +23,36 @@
       "description": "A basket full of ripe tomatoes.",
       "imageUrl": "https://images.unsplash.com/photo-1753172433718-d0c2a99443d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b21hdG8lMjBiYXNrZXR8ZW58MHx8fHwxNzY4NjU3OTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tomato basket"
+    },
+    {
+      "id": "mango-1",
+      "description": "A bunch of ripe mangoes hanging from a tree.",
+      "imageUrl": "https://images.unsplash.com/photo-1591073113125-e45711c2a319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5nb2VzfGVufDB8fHx8MTc3MDI0NTg5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ripe mangoes"
+    },
+    {
+      "id": "pineapple-1",
+      "description": "A pineapple growing in a field.",
+      "imageUrl": "https://images.unsplash.com/photo-1589820296156-2454bb8a6ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaW5lYXBwbGV8ZW58MHx8fHwxNzcwMjQ1OTU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "growing pineapple"
+    },
+    {
+      "id": "banana-1",
+      "description": "A bunch of yellow bananas.",
+      "imageUrl": "https://images.unsplash.com/photo-1528825871115-3581a5387919?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmFzfGVufDB8fHx8MTc3MDI0NTk4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yellow bananas"
+    },
+    {
+      "id": "cassava-1",
+      "description": "Peeled cassava roots on a wooden table.",
+      "imageUrl": "https://images.unsplash.com/photo-1620888219442-c6225b2d1c67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXNzYXZhJTIwcm9vdHN8ZW58MHx8fHwxNzcwMjQ2MDE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cassava roots"
+    },
+    {
+      "id": "beans-1",
+      "description": "A variety of dried beans in a bowl.",
+      "imageUrl": "https://images.unsplash.com/photo-1589635032543-55d72b22b10a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkcmllZCUyMGJlYW5zfGVufDB8fHx8MTc3MDI0NjA1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dried beans"
     }
   ]
 }
